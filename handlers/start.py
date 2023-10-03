@@ -4,7 +4,7 @@ from aiogram.types.inline_keyboard_button import InlineKeyboardButton as IButton
 from aiogram.types.inline_keyboard_markup import InlineKeyboardMarkup
 from text1 import START_TEXT
 from text2 import BUTTON_TEXT
-from db.shopdb import save_question
+from db.queries import save_question
 
 start_router = Router()
 

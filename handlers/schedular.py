@@ -2,7 +2,7 @@ from aiogram import Router, types
 from aiogram.filters import Command
 from bot import scheduler, bot
 from datetime import datetime
-from db.shopdb import select_users
+from db.queries import select_users
 
 scheduler_router = Router()
 

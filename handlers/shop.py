@@ -1,11 +1,11 @@
-import db.shopdb
+import db.queries
 from aiogram import types, Router, F
 from aiogram.filters import Command
 from aiogram.types.keyboard_button import KeyboardButton
 from aiogram.types.reply_keyboard_markup import ReplyKeyboardMarkup
 from aiogram.types.reply_keyboard_remove import ReplyKeyboardRemove
-from db.shopdb import get_products
-from db.shopdb import get_product_by_category
+from db.queries import get_products
+from db.queries import get_product_by_category
 
 
 shop_router = Router()

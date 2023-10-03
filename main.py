@@ -6,7 +6,7 @@ from handlers.pictures import picture_router
 from handlers.shop import shop_router
 from bot import bot, dp, scheduler
 from handlers.question import questions_router
-from db.shopdb import init_db, create_tables, populate_tables
+from db.queries import init_db, create_tables, populate_tables
 from aiogram.types import BotCommand
 from handlers.schedular import scheduler_router
 
